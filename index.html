@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>my site</title>
+  </head>
+  <body>
+    <div class="home bg-dark py-5">
+      <nav
+        id="navhide"
+        class="navbar cards position-sticky top-0 screen navbar-expand-lg bg-black rounded col-lg-10 col-md-12 offset-lg-1 mt-5"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-2" href="#">GAME REVIEWS</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 t">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">MMORPG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link datashow" aria-current="page" href="#"
+                  >SHOOTER</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link datashow" -current="page" href="#"
+                  >SAILING</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link datashow" href="#">PERMADEATH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link datashow" href="#">SUPERHERO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link datashow" href="#">PIXEL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="games mt-5">
+        <div class="container">
+          <!-- put data home for all cards -->
+          <div class="row" id="card"></div>
+
+          <!-- put details data from js file  -->
+
+          <div id="details" class="details text-white d-none"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bootstrap.bundle.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
