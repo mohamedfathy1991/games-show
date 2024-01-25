@@ -1,4 +1,6 @@
 import { Showdata } from "./ui.js";
+let sho =new Showdata()
+
 
 Showdata.showByGategory("mmorpg");
 
